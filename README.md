@@ -94,7 +94,7 @@ In de scene bevind zich al een auto. Deze auto bestaat enkel uit visuele compone
 
     * In het Rigidbody vind je verschillende variablen. Aangezien we over een auto spreken is een 'Mass' van 1 niet voldoende. Voor accurate physics moet de mass naar ongeveer 1300. 
     
-2. Wanneer de game nu gestart wordt valt het auto object door de grond heen. Dit komt omdat het voertuig wel beinvloed wordt door de zwaartekracht, maar geen collision kan veroorzaken. Hiervoor moet er een collider worden toegevoegd aan de auto. In het child object bevind zich een object met de naam body, voeg hier een meshcollider aan toe. 
+2. Wanneer de game nu gestart wordt valt het auto object door de grond heen. Dit komt omdat het voertuig wel beinvloed wordt door de zwaartekracht, maar geen collision kan veroorzaken. Hiervoor moet er een collider worden toegevoegd aan de auto. In het child object bevind zich een object met de naam CarClosed, voeg hier een meshcollider aan toe. 
 
     * De meshcollider maakt gebruik van het model in het object. De zichtbare randen worden gebruikt als colliders. 
     
@@ -102,7 +102,7 @@ In de scene bevind zich al een auto. Deze auto bestaat enkel uit visuele compone
     
 3. De wielen in ons voertuig moeten nu ook nog een collider. Om de 'Wheel Colliders' goed te laten werken moeten een paar stappen worden voltooid:
 
-    1. Maak een object aan in het 'visuals' object van het voertuig noem het 'Wheels'. Zet zijn positie op 0-0-0, doe het zelfde voor zijn rotatie. Laat de scale op 1-1-1.
+    1. Maak een object aan in het 'CarSpecial' object van het voertuig noem het 'Wheels'. Zet zijn positie op 0-0-0, doe het zelfde voor zijn rotatie. Laat de scale op 1-1-1.
     
     2. Voeg alle wielen toe aan het wheels object.
     
@@ -529,4 +529,4 @@ protected void ResetMotorTorque()
 
 Verwijder de camera in de AI gestuurde auto. Dit zorgt er voor dat de Camera in de bestuurbare auto gebruikt word.
 
- 
+  
