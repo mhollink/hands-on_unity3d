@@ -7,6 +7,7 @@
     * [Visual Studio](https://www.visualstudio.com/) (Windows only)
     * [Visual Studio Code](https://code.visualstudio.com/) (Any OS)
     * [MonoDevelop](http://www.monodevelop.com/) (Mee geleverd met Unity3D, misschien buggy)
+	* [Rider *EAP] (https://www.jetbrains.com/rider/) (Any OS, Early access voor C# editor, IntelliJ style)
     * Notepad (If everything fails)
     
 * Unity3D
