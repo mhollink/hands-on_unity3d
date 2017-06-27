@@ -4,10 +4,10 @@
 
 * C# editor
 
-    * [Visual Studio](https://www.visualstudio.com/)
-    * [Visual Studio Code](https://code.visualstudio.com/)
-    * [MonoDevelop](http://www.monodevelop.com/)
-    * Notepad
+    * [Visual Studio](https://www.visualstudio.com/) (Windows only)
+    * [Visual Studio Code](https://code.visualstudio.com/) (Any OS)
+    * [MonoDevelop](http://www.monodevelop.com/) (Mee geleverd met Unity3D, misschien buggy)
+    * Notepad (If everything fails)
     
 * Unity3D
 
